@@ -1,8 +1,8 @@
 # Main Page Title
-title: "Natesplanet"
+title: "XenoSimp"
 
 # Your name
-name: "Natesplanet"
+name: "Sunil B"
 
 # Main section title
 section: "Portfolio"
@@ -14,32 +14,32 @@ plugins:
 repository: natesplanet/natesplanet.github.io
 
 # Your job
-work: "Just a Gamer learning more about Coding"
+work: "SRM '24 | AI Engineer | Data Science | Qiskit & Quantum computing enthusiast."
 
 # Section E-Mail link or anchor
 section-email: "#contact"
 
 # Description
-description: "Natesplanet's personal website."
+description: "XENO's personal website."
 
 # Base url (Only dir eg. /blog | /portfolio)
 baseurl: ""
 
 # Link to the main page (or subpage)
-url: "https://Natesplanet.github.io"
+url: "https://sunilboopalan.github.io"
 
 # Contact E-Mail
-email: "nathankamineni@gmail.com"
+email: "xenosunil@gmail.com"
 
 # Arc.io key
 arc: "S9mepABR"
 
 social-media:
  enabled: "true"
- twitter: "@Natesplanet"
- github_username: "Natesplanet"
- discord: "https://discord.gg/S4kqaUmQtP"
- instagram: Natesplanet
+ twitter: "@SunilBoopalan"
+ github_username: "SunilBoopalan"
+ discord: "https://discord.gg/jgnjwPEyDW"
+ instagram: sunilb_thereal1
  
  
 
@@ -57,10 +57,10 @@ cards:
  enabled: "true"
 
 # Extra link on navigation
-blog: "/blog"
+blog: "https://sunilboopalan.github.io"
 
 # Title of the extra link
-blog-title: "Blog"
+blog-title: "Cringe Site"
 
 # Support to mobile browsers (It’s unknown what range of browsers support this meta tags) [Better to set the value to "false"!] (Boolean)
 mobile: "false"
