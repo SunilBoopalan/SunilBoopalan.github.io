@@ -11,7 +11,7 @@ plugins:
  - "jekyll-github-metadata"
 
 # Github repository
-repository: natesplanet/natesplanet.github.io
+repository: sunilboopalan/2.0
 
 # Your job
 work: "SRM '24 | AI Engineer | Data Science | Qiskit & Quantum computing enthusiast."
