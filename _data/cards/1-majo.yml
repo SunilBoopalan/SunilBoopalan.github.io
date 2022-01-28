@@ -1,7 +1,7 @@
 id: "1"
 title: "Simp-Bot"
 archived: "false"
-technology: "JavaScript"
+technology: "Python & JavaScript"
 description: "Discord bot with many commands (STILL BETA)"
 git: "Simpbot"
 background: "/lib/pics/majo-data.jpg"
