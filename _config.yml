@@ -91,10 +91,10 @@ form:
  display_banner: "true" # Display form banner (boolean)
 
 # Google Tracking ID
-tracking_id: "G-629JN1JKVT"
+tracking_id: ""
 
 # Google Site Verification ID
-verification: "ta_nmlLhdulf7izowyF1iK37-e2h_2nuRH25jkKjFKI"
+verification: ""
 
 # Coding stats
 wakatime:
