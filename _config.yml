@@ -1,0 +1,104 @@
+# Main Page Title
+title: "Natesplanet"
+
+# Your name
+name: "Natesplanet"
+
+# Main section title
+section: "Portfolio"
+
+plugins:
+ - "jekyll-github-metadata"
+
+# Github repository
+repository: natesplanet/natesplanet.github.io
+
+# Your job
+work: "Just a Gamer learning more about Coding"
+
+# Section E-Mail link or anchor
+section-email: "#contact"
+
+# Description
+description: "Natesplanet's personal website."
+
+# Base url (Only dir eg. /blog | /portfolio)
+baseurl: ""
+
+# Link to the main page (or subpage)
+url: "https://Natesplanet.github.io"
+
+# Contact E-Mail
+email: "nathankamineni@gmail.com"
+
+# Arc.io key
+arc: "S9mepABR"
+
+social-media:
+ enabled: "true"
+ twitter: "@Natesplanet"
+ github_username: "Natesplanet"
+ discord: "https://discord.gg/S4kqaUmQtP"
+ instagram: Natesplanet
+ 
+ 
+
+ projects:
+  sort_by: stars # pushed / stars
+  limit: 4
+  exclude:
+   archived: true
+   forks: true
+   projects:
+    - "fest"
+
+# Display svg decorations (boolean)
+cards:
+ enabled: "true"
+
+# Extra link on navigation
+blog: "/blog"
+
+# Title of the extra link
+blog-title: "Blog"
+
+# Support to mobile browsers (It’s unknown what range of browsers support this meta tags) [Better to set the value to "false"!] (Boolean)
+mobile: "false"
+
+# First Launch of the site
+first-launch: "2022"
+
+# Timezone
+timezone: "America/Puerto_Rico"
+
+# Encoding (default: utf-8)
+encoding: utf-8
+
+# Markdown and Default theme
+markdown: kramdown
+theme: minima
+
+exclude: [vendor]
+
+# Contact form
+form:
+ enabled: "true" # Display form on page (boolean)
+ disabled: "true" # Disable the contact form inputs but don't hide the whole form. Enable this for eg. maintenance. (boolean)
+ hide_html_form: "true" # Hide HTML form from page
+ action: "https://getform.io/f/f823ef85-b161-4cc1-9d60-ef2fb18b9276" # Form action, must support xhr requests (url)
+ banner: "https://lanyard.cnrad.dev/api/734918355303006299" # Form banner (url)
+ banner_url: "https://discord.com/users/734918355303006299" # Banner url (url)
+ display_banner: "true" # Display form banner (boolean)
+
+# Google Tracking ID
+tracking_id: "G-629JN1JKVT"
+
+# Google Site Verification ID
+verification: "ta_nmlLhdulf7izowyF1iK37-e2h_2nuRH25jkKjFKI"
+
+# Coding stats
+wakatime:
+ enabled: "true" # Boolean
+ started: "2022" # Year when wakatime started moritoring your code activity
+ link: "https://github.com/Natesplanet" # Your wakatime profile link
+ embed: "https://github-readme-stats.vercel.app/api/top-langs/?username=Natesplanet&langs_count=8" # Coding stats embed image in .svg format
