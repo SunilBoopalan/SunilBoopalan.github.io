@@ -86,8 +86,8 @@ form:
  disabled: "true" # Disable the contact form inputs but don't hide the whole form. Enable this for eg. maintenance. (boolean)
  hide_html_form: "true" # Hide HTML form from page
  action: "https://getform.io/f/f823ef85-b161-4cc1-9d60-ef2fb18b9276" # Form action, must support xhr requests (url)
- banner: "https://lanyard.cnrad.dev/api/734918355303006299" # Form banner (url)
- banner_url: "https://discord.com/users/734918355303006299" # Banner url (url)
+ banner: "https://lanyard.cnrad.dev/api/762316391491174403" # Form banner (url)
+ banner_url: "https://discord.com/users/762316391491174403" # Banner url (url)
  display_banner: "true" # Display form banner (boolean)
 
 # Google Tracking ID
@@ -100,5 +100,5 @@ verification: "ta_nmlLhdulf7izowyF1iK37-e2h_2nuRH25jkKjFKI"
 wakatime:
  enabled: "true" # Boolean
  started: "2022" # Year when wakatime started moritoring your code activity
- link: "https://github.com/Natesplanet" # Your wakatime profile link
- embed: "https://github-readme-stats.vercel.app/api/top-langs/?username=Natesplanet&langs_count=8" # Coding stats embed image in .svg format
+ link: "https://github.com/SunilBoopalan" # Your wakatime profile link
+ embed: "https://github-readme-stats.vercel.app/api/top-langs/?username=SunilBoopalan&langs_count=8" # Coding stats embed image in .svg format
