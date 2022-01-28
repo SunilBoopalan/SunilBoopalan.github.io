@@ -1,10 +1,10 @@
 # Portfolio
 My portfolio written on Jekyll and SCSS
 
-[![Jekyll](https://img.shields.io/github/workflow/status/igorkowalczyk/igorkowalczyk.github.io/jekyll-deploy?style=flat-square&logo=github&color=%2334D058)](https://igorkowalczyk.github.io)
+[![Jekyll](https://img.shields.io/github/workflow/status/igorkowalczyk/igorkowalczyk.github.io/jekyll-deploy?style=flat-square&logo=github&color=%2334D058)](https://sunilboopalan.github.io)
 [![GitHub License](https://img.shields.io/github/license/igorkowalczyk/blog?color=%2334D058&logo=github&style=flat-square)](https://igorkowalczyk.github.io/license.txt)
-[![Version](https://img.shields.io/github/v/release/igorkowalczyk/igorkowalczyk.github.io?color=%2334D058&logo=github&style=flat-square)](https://github.com/igorkowalczyk/igorkowalczyk.github.io/releases)
-[![Discord](https://img.shields.io/discord/666599184844980224?color=%2334D058&logo=discord&style=flat-square&logoColor=7289da)](https://majobot.igorkowalczyk.repl.co/server)
+[![Version](https://img.shields.io/github/v/release/igorkowalczyk/igorkowalczyk.github.io?color=%2334D058&logo=github&style=flat-square)](http)
+[![Discord](https://img.shields.io/discord/666599184844980224?color=%2334D058&logo=discord&style=flat-square&logoColor=7289da)](http)
 
 ### Image
 [![Portfolio](https://raw.githubusercontent.com/IgorKowalczyk/igorkowalczyk.github.io/master/lib/pics/readme/portfolio.png)](https://igorkowalczyk.github.io)
@@ -42,7 +42,7 @@ effect: "color"
 6. Host this site locally by running `bundle exec jekyll serve`. Your site will be hosted under http://localhost:4000.
 
 ### Issues
-If you have any issues with the project or you found a bug please create [new issue here](https://github.com/igorkowalczyk/igorkowalczyk.github.io/issues)
+If you have any issues with the project or you found a bug please create [new issue here](https://github.com/SunilBoopalan/igorkowalczyk.github.io/issues)
 
 
 ### Pull Requests
@@ -50,7 +50,7 @@ When submitting a pull request:
 
 - Clone the repo.
 - Create a branch off of master and give it a meaningful name (e.g. my-awesome-new-feature).
-- Open a [pull request](https://github.com/igorkowalczyk/igorkwalczyk.github.io/pulls) on [GitHub](https://github.com) and describe the feature or fix.
+- Open a [pull request](https://github.com/sunilboopalan/sunilboopalan.github.io/pulls) on [GitHub](https://github.com) and describe the feature or fix.
 
 ### License
-This project is licensed under the MIT. See the [LICENSE](https://github.com/igorkowalczyk/igorkwalczyk.github.io/blob/master/license.md) file for details
+This project is licensed under the MIT. See the [LICENSE](https://github.com/sunilboopalan/sunilboopalan.github.io/blob/master/license.md) file for details
