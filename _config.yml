@@ -11,7 +11,7 @@ plugins:
  - "jekyll-github-metadata"
 
 # Github repository
-repository: sunilboopalan/2.0
+repository: sunilboopalan/SunilBoopalan.github.io
 
 # Your job
 work: "SRM '24 | AI Engineer | Data Science | Qiskit & Quantum computing enthusiast."
