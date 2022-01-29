@@ -17,7 +17,7 @@ repository: sunilboopalan/SunilBoopalan.github.io
 work: "SRM '24 | AI Engineer | Data Science | Qiskit & Quantum computing enthusiast."
 
 # Section E-Mail link or anchor
-section-email: "#contact"
+section-email: "grandsunil7@gmail.com"
 
 # Description
 description: "XENO's personal website."
@@ -29,7 +29,7 @@ baseurl: ""
 url: "https://sunilboopalan.github.io"
 
 # Contact E-Mail
-email: "xenosunil@gmail.com"
+email: "grandsunil7@gmail.com"
 
 # Arc.io key
 arc: ""
