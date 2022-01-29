@@ -53,4 +53,4 @@ When submitting a pull request:
 - Open a [pull request](https://github.com/sunilboopalan/sunilboopalan.github.io/pulls) on [GitHub](https://github.com) and describe the feature or fix.
 
 ### License
-This project is licensed under the MIT. See the [LICENSE](https://github.com/sunilboopalan/sunilboopalan.github.io/blob/master/license.md) file for details
+This project is licensed under the MIT. See the [LICENSE](https://github.com/sunilboopalan/sunilboopalan.github.io/blob/master/LICENSE) file for details
