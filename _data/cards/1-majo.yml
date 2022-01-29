@@ -6,7 +6,7 @@ description: "Discord bot with meme and music commands (Slash commands and games
 url: "https://top.gg/bot/920753063638216774"
 git: "Simpbot"
 background: "lib/pics/edited2.jpg"
-background_data: "/lib/pics/majo-data.jpg"
+background_data: "/lib/pics/edited2.jpg"
 background-alt: "Background"
 second-background: "/lib/svg/lines.svg"
 second-background-alt: "Lines"
