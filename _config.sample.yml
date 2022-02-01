@@ -2,19 +2,19 @@
 title: "Example Portfolio"
 
 # Your name
-name: "Igor Kowalczyk"
+name: "Sunil Boopalan"
 
 # Main section title
 section: "Portfolio"
 
 # Your job
-work: "Front-End Developer"
+work: "Full-Stack Developer"
 
 # Section E-Mail link or anchor
 section-email: "#contact"
 
 # Description
-description: "Igor Kowalczyk portfolio"
+description: "Sunil B's portfolio"
 
 # Base url (Only dir eg. /blog | /portfolio)
 baseurl: ""
@@ -32,7 +32,7 @@ wattpad: "example"
 arc: "arc-widget-key"
 
 # Your Facebook account (with tag if you have)
-facebook: igor-kowalczyk.0000
+facebook: Sunil-Boopalan.0000
 # facebook: 51144145433434332
 
 # Your Instagram account name
