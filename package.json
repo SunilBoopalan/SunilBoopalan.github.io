@@ -1,5 +1,5 @@
 {
- "name": "igorkowalczyk-portfolio",
+ "name": "SunilBoopalan-portfolio",
  "version": "0.0.3",
  "description": "My personal portfolio",
  "scripts": {
@@ -11,14 +11,14 @@
  },
  "repository": {
   "type": "git",
-  "url": "git+https://github.com/igorkowalczyk/igorkowalczyk.github.io.git"
+  "url": "git+https://github.com/SunilBoopalan/SunilBoopalan.github.io.git"
  },
- "author": "Igor Kowalczyk",
+ "author": "Sunil Boopalan",
  "license": "MIT",
  "bugs": {
-  "url": "https://github.com/igorkowalczyk/igorkowalczyk.github.io/issues"
+  "url": "https://github.com/SunilBoopalan/SunilBoopalan.github.io/issues"
  },
- "homepage": "https://igorkowalczyk.github.io",
+ "homepage": "https://SunilBoopalan.github.io",
  "devDependencies": {
   "prettier": "^2.5.1"
  }
