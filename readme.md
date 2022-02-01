@@ -7,7 +7,7 @@ My portfolio written on Jekyll and SCSS
 [![Discord](https://img.shields.io/discord/666599184844980224?color=%2334D058&logo=discord&style=flat-square&logoColor=7289da)](http)
 
 ### Image
-[![Portfolio](https://raw.githubusercontent.com/IgorKowalczyk/igorkowalczyk.github.io/master/lib/pics/readme/portfolio.png)](https://igorkowalczyk.github.io)
+[![Portfolio](https://raw.githubusercontent.com/SunilBoopalan/SunilBoopalan.github.io/master/lib/pics/readme/portfolio.png)](https://SunilBoopalan.github.io)
 
 ### Features
  - ⚙️ Fully customizable
