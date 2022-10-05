@@ -1487,3 +1487,14 @@ fieldset {
  padding-bottom: 0;
  background-position: 120% 0;
 }
+.patreon-widget {
+    width: 178px !important;
+  }
+a.patreon-button {
+  border-radius: 5px;
+  background-color: #ff424d;
+  min-height: 42px;
+  border: none;
+  display: grid;
+  place-items: center;
+}
