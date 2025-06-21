@@ -1493,19 +1493,19 @@ body {
   background-image: url("/lib/pics/background.jpg");
   background-repeat: no-repeat;
   background-position: top center;
-  background-attachment: fixed;
   background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
 }
 
-/* MOBILE OVERRIDE */
+/* Override for mobile devices */
 @media screen and (max-width: 768px) {
   body {
-    background-image: url("/lib/pics/background.jpg");
-    background-repeat: no-repeat;
+    background-attachment: scroll !important;
+    background-size: cover;
     background-position: top center;
-    background-size: 100% auto;
-    background-attachment: scroll;
+    background-repeat: no-repeat;
   }
 }
+
 
