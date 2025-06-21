@@ -1499,7 +1499,7 @@ fieldset {
 
 @media (max-width: 768px) {
   .card-grid {
-    grid-template-columns: 1fr; // Stack vertically
+    grid-template-columns: 1fr;
     padding: 0 1rem;
   }
 
@@ -1508,5 +1508,6 @@ fieldset {
     text-align: center;
   }
 }
+
 
 
