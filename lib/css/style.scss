@@ -1488,21 +1488,29 @@ fieldset {
  background-position: 120% 0;
 }
 
-/* 🔧 Mobile Fix for Overlapping Cards */
+/* 🔧 Responsive Fix for Mobile Card Overlap and Background Visibility */
 @media (max-width: 768px) {
-  .project-card {
-    width: 100% !important;
-    margin-bottom: 1rem;
+  body {
+    background-color: #0d1117 !important;
   }
 
-  .projects {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 5rem; /* prevent overlap */
+  .project-card {
+    width: 100% !important;
+    margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+  }
+
+  .row {
+    flex-direction: column !important;
+    align-items: center !important;
   }
 
   .more {
-    margin-top: 3rem; /* spacing before “Want even more?” */
+    margin-top: 3rem;
+    padding-bottom: 2rem;
+    text-align: center;
   }
 }
+
