@@ -2,7 +2,7 @@
 title: "Sunil Boopalan"
 
 # Your name
-name: "Sunil Boopalan"
+name: "Sunil B"
 
 # Main section title
 section: "Portfolio"
@@ -14,13 +14,13 @@ plugins:
 repository: sunilboopalan/SunilBoopalan.github.io
 
 # Your job
-work: "Cloud & Cybersecurity Engineer | Researcher | AI, Quantum Computing & Blockchain enthusiast."
+work: "Cloud & Cybersecurity Engineer | Researcher | AI, Quantum Tech & Blockchain"
 
 # Section E-Mail link or anchor
 section-email: "#contact"
 
 # Description
-description: "XENO's personal website."
+description: "Sunil's personal website."
 
 # Base url (Only dir eg. /blog | /portfolio)
 baseurl: ""
@@ -29,7 +29,7 @@ baseurl: ""
 url: "https://sunilboopalan.github.io"
 
 # Contact E-Mail
-email: "xenosunil@gmail.com"
+email: "sunilboopalan3@gmail.com"
 
 # Arc.io key
 arc: ""
