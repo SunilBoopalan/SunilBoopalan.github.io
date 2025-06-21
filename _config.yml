@@ -57,10 +57,10 @@ cards:
  enabled: "true"
 
 # Extra link on navigation
-blog: "https://sunilboopalan.github.io/cringe/"
+blog: "https://www.shotok.in/"
 
 # Title of the extra link
-blog-title: "Cringe Site"
+blog-title: "ShotOK"
 
 # Support to mobile browsers (It’s unknown what range of browsers support this meta tags) [Better to set the value to "false"!] (Boolean)
 mobile: "false"
