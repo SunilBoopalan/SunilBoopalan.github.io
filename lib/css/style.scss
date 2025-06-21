@@ -1489,5 +1489,21 @@ fieldset {
 }
 
 
+body {
+  background-image: url("/lib/pics/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed; // Optional: use "scroll" for mobile
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-attachment: scroll; // Prevents jumpy behavior on mobile
+    background-size: cover;
+    background-position: top;
+  }
+}
 
 
