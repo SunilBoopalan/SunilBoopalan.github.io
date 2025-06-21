@@ -1487,3 +1487,22 @@ fieldset {
  padding-bottom: 0;
  background-position: 120% 0;
 }
+
+/* 🔧 Mobile Fix for Overlapping Cards */
+@media (max-width: 768px) {
+  .project-card {
+    width: 100% !important;
+    margin-bottom: 1rem;
+  }
+
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 5rem; /* prevent overlap */
+  }
+
+  .more {
+    margin-top: 3rem; /* spacing before “Want even more?” */
+  }
+}
