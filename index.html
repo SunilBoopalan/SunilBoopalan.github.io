@@ -34,15 +34,9 @@ layout: "default"
   <span style="font-size: 18px">✨ Note: Click buttons to see more! ✨</span>
   {% endif %} {% endif %} {% endif %}
  </div>
- <section class="wrapper">
+  <section class="wrapper">
   {% if site.data.cards %}
-    <div class="cards-container">
-      <div class="card-grid">
-        {% for card in site.data.cards %}
-          {% include cards.html card=card %}
-        {% endfor %}
-      </div>
-    </div>
+  <div class="work-grid">{% include cards.html %}</div>
   <div class="section-title">
    <p class="background-header background-header-padding-top even-more" style="transform: rotate(4deg)" id="code">Want even more?</p>
   </div>
