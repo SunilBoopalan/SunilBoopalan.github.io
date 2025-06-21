@@ -1489,23 +1489,5 @@ fieldset {
 }
 
 
-body {
-  background-image: url("/lib/pics/background.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: cover;
-  background-attachment: fixed;
-  min-height: 100vh;
-}
-
-/* Override for mobile devices */
-@media screen and (max-width: 768px) {
-  body {
-    background-attachment: scroll !important;
-    background-size: cover;
-    background-position: top center;
-    background-repeat: no-repeat;
-  }
-}
 
 
