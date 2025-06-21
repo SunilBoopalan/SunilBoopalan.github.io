@@ -1488,29 +1488,25 @@ fieldset {
  background-position: 120% 0;
 }
 
-/* 🔧 Responsive Fix for Mobile Card Overlap and Background Visibility */
+/* 🔧 Custom Card Grid Fix */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+  margin-bottom: 3rem;
+}
+
 @media (max-width: 768px) {
-  body {
-    background-color: #0d1117 !important;
-  }
-
-  .project-card {
-    width: 100% !important;
-    margin-bottom: 1.5rem;
-    margin-left: auto;
-    margin-right: auto;
-    float: none;
-  }
-
-  .row {
-    flex-direction: column !important;
-    align-items: center !important;
+  .card-grid {
+    grid-template-columns: 1fr; // Stack vertically
+    padding: 0 1rem;
   }
 
   .more {
-    margin-top: 3rem;
-    padding-bottom: 2rem;
+    margin-top: 2rem;
     text-align: center;
   }
 }
+
 
