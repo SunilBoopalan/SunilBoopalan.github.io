@@ -1489,23 +1489,23 @@ fieldset {
 }
 
 /* 🔧 Custom Card Grid Fix */
-.card-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
-  justify-items: center;
-  margin-bottom: 3rem;
-}
-
-@media (max-width: 768px) {
-  .card-grid {
+@media screen and (max-width: 768px) {
+  .work-grid {
+    display: grid;
+    grid-template-areas: none;
     grid-template-columns: 1fr;
-    padding: 0 1rem;
+    gap: 2em;
+    justify-items: center;
+    padding: 0 1em;
   }
 
-  .more {
-    margin-top: 2rem;
-    text-align: center;
+  .card {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .svg-card {
+    display: none; // optional: hides background SVGs on small screens
   }
 }
 
