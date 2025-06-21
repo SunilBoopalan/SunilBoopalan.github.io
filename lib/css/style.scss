@@ -1488,26 +1488,6 @@ fieldset {
  background-position: 120% 0;
 }
 
-/* 🔧 Custom Card Grid Fix */
-@media screen and (max-width: 768px) {
-  .work-grid {
-    display: grid;
-    grid-template-areas: none;
-    grid-template-columns: 1fr;
-    gap: 2em;
-    justify-items: center;
-    padding: 0 1em;
-  }
-
-  .card {
-    max-width: 100%;
-    width: 100%;
-  }
-
-  .svg-card {
-    display: none; // optional: hides background SVGs on small screens
-  }
-}
 
 
 
