@@ -36,7 +36,13 @@ layout: "default"
  </div>
  <section class="wrapper">
   {% if site.data.cards %}
-  <div class="work-grid">{% include cards.html %}</div>
+    <div class="cards-container">
+      <div class="card-grid">
+        {% for card in site.data.cards %}
+          {% include cards.html card=card %}
+        {% endfor %}
+      </div>
+    </div>
   <div class="section-title">
    <p class="background-header background-header-padding-top even-more" style="transform: rotate(4deg)" id="code">Want even more?</p>
   </div>
