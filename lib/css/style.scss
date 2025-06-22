@@ -1489,5 +1489,12 @@ fieldset {
 }
 
 
+@media (max-width: 768px) {
+  .hero-section {
+    background-attachment: scroll; /* Stops mobile from zooming in */
+    background-position: center center;
+    background-size: cover; /* Prevents stretching */
+  }
+}
 
 
