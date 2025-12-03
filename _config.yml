@@ -36,9 +36,7 @@ arc: ""
 
 social-media:
  enabled: "true"
- twitter: ""
  github_username: "SunilBoopalan"
- discord: "https://discord.gg/7fdSXVrQwF"
  instagram: sunilb.io
  linkedin: "in/sunil-boopalan"
  
@@ -102,4 +100,5 @@ wakatime:
  started: "2022" # Year when wakatime started moritoring your code activity
  link: "https://github.com/SunilBoopalan" # Your wakatime profile link
  embed: "https://github-readme-stats.vercel.app/api/top-langs/?username=SunilBoopalan&langs_count=8" # Coding stats embed image in .svg format
+
 
