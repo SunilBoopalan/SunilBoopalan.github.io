@@ -38,7 +38,7 @@
    </style>
           
           
-   {% if site.form.banner_url %}<a href="{{ site.form.banner_url }}" class="icon-a"> {% endif %} <img src="{{ site.form.banner }}" /> {% if site.form.banner_url %}</a>{% endif %} {% endif %} 
+   {% if site.form.banner_url %}<a href="{{ site.form.banner_url }}" class="icon-a"> {% endif %} <img src="{{ site.form.banner }}" alt="Form banner" /> {% if site.form.banner_url %}</a>{% endif %} {% endif %} 
 
           <script src="https://platform.linkedin.com/badges/js/profile.js"
         async defer type="text/javascript"></script>
@@ -137,6 +137,7 @@
  </div>
 </div>
 <script src="{{ site.url || site.host }}{{ site.baseurl }}/lib/js/form.js"></script>
+
 
 
 
