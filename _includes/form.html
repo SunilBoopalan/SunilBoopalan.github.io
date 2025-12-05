@@ -41,29 +41,27 @@
       data-vanity="sunil-boopalan"
       data-version="v1">
     </div>
-  </div>
+  
 
             <!-- Fallback badge (hidden by default) -->
-  <a href="https://www.linkedin.com/in/sunil-boopalan" target="_blank" id="linkedin-fallback" style="display:none;">
-    <img src="lib/pics/png/linkedin-fallback.png" alt="LinkedIn Profile" style="max-width:100%;"/>
+  <a href="https://www.linkedin.com/in/sunil-boopalan" target="_blank" class="linkedin-fallback">
+    <img src="{{ site.baseurl }}/lib/pics/png/linkedin-fallback.png" alt="View my LinkedIn" style="max-width:200px; width: 50%; display:block; margin: 0 auto;">
   </a>
-
+</div>
+         
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
           
-           <script>
-    window.addEventListener('load', function() {
-      const badge = document.querySelector('#linkedin-badge iframe');
-      const fallback = document.getElementById('linkedin-fallback');
+<style>
+  /* Hide fallback on desktop */
+  .linkedin-fallback { display: none; }
 
-      // If iframe not loaded after 3 seconds, show fallback
-      setTimeout(() => {
-        if (!badge || badge.clientHeight === 0) {
-          document.getElementById('linkedin-badge').style.display = 'none';
-          fallback.style.display = 'block';
-        }
-      }, 3000);
-    });
-  </script>
+  /* Mobile adjustments */
+  @media screen and (max-width: 768px) {
+    .badge-base { display: none !important; }
+    .linkedin-fallback { display: block; text-align: center; margin-top: 20px; }
+  }
+</style>
+
 
   <!-- LinkedIn Badge END -->
 
@@ -146,6 +144,7 @@
  </div>
 </div>
 <script src="{{ site.url || site.host }}{{ site.baseurl }}/lib/js/form.js"></script>
+
 
 
 
