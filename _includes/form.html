@@ -32,14 +32,105 @@
   <div class="wrap-contact">
 
   <!-- LinkedIn Badge START -->
-  <div class="linkedin-wrapper">
-  <!-- Custom fallback badge (always visible) -->
-  <a href="https://www.linkedin.com/in/sunil-boopalan" target="_blank" class="linkedin-fallback">
-    <img src="{{ site.baseurl }}/lib/pics/png/linkedin-fallback.png" 
-         alt="View my LinkedIn" class="linkedin-badge-img">
+          <!-- Custom LinkedIn Badge START -->
+<div class="linkedin-wrapper">
+  <a href="https://www.linkedin.com/in/sunil-boopalan" target="_blank" class="linkedin-badge">
+    <img src="{{ site.baseurl }}/lib/pics/png/profile-pic.png" alt="Sunil Boopalan">
+    <div class="linkedin-info">
+      <span class="linkedin-name">Sunil Boopalan</span>
+      <span class="linkedin-label"><img src="{{ site.baseurl }}/lib/pics/png/linkedin-icon.png" alt="LinkedIn" class="linkedin-icon"> LinkedIn</span>
+    </div>
   </a>
+</div>
 
-  <!-- Official LinkedIn badge JS -->
+<style>
+/* Wrapper */
+.linkedin-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Badge link */
+.linkedin-badge {
+  display: flex;
+  align-items: center;
+  background-color: #0A66C2; /* LinkedIn blue */
+  color: #ffffff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-decoration: none;
+  max-width: 400px;
+  width: 90%;
+  box-sizing: border-box;
+  transition: transform 0.2s ease;
+}
+
+.linkedin-badge:hover {
+  transform: scale(1.03);
+}
+
+/* Profile image */
+.linkedin-badge img:first-child {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+/* Text block */
+.linkedin-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+}
+
+.linkedin-name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.linkedin-label {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  color: #e6e6e6;
+  margin-top: 2px;
+}
+
+.linkedin-icon {
+  width: 14px;
+  height: 14px;
+  margin-right: 4px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .linkedin-badge img:first-child {
+    width: 40px;
+    height: 40px;
+  }
+
+  .linkedin-name {
+    font-size: 14px;
+  }
+
+  .linkedin-label {
+    font-size: 0.7rem;
+  }
+
+  .linkedin-icon {
+    width: 12px;
+    height: 12px;
+  }
+}
+</style>
+<!-- Custom LinkedIn Badge END -->
+          
+ <!-- LinkedIn Badge -->
+ <div class="linkedin-wrapper">
   <div class="badge-base LI-profile-badge"
        data-locale="en_US"
        data-size="medium"
@@ -50,9 +141,7 @@
   </div>
 </div>
 
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer
-        onload="document.querySelector('.linkedin-fallback').style.display='none';">
-</script>
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 
   <!-- LinkedIn Badge END -->
@@ -136,6 +225,7 @@
  </div>
 </div>
 <script src="{{ site.url || site.host }}{{ site.baseurl }}/lib/js/form.js"></script>
+
 
 
 
