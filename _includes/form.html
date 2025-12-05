@@ -30,6 +30,37 @@
    <p class="background-header background-header-padding-top background-header-padding-bottom">Contact me!</p>
   </div>
   <div class="wrap-contact">
+          <div class="wrap-contact">
+
+  <!-- LinkedIn Badge START -->
+  <div class="linkedin-wrapper">
+    <div class="badge-base LI-profile-badge"
+      data-locale="en_US"
+      data-size="large"
+      data-theme="dark"
+      data-type="HORIZONTAL"
+      data-vanity="sunil-boopalan"
+      data-version="v1">
+    </div>
+  </div>
+
+  <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+  <style>
+    .linkedin-wrapper {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .linkedin-wrapper iframe {
+      width: 100% !important;
+      max-width: 420px !important;
+    }
+  </style>
+  <!-- LinkedIn Badge END -->
+
    {% if site.form.banner and site.form.display_banner == "true" %}
    <style>
     .wrap-contact {
@@ -40,35 +71,7 @@
           
    {% if site.form.banner_url %}<a href="{{ site.form.banner_url }}" class="icon-a"> {% endif %} <img src="{{ site.form.banner }}" alt="Form banner" /> {% if site.form.banner_url %}</a>{% endif %} {% endif %} 
 
-          <script src="https://platform.linkedin.com/badges/js/profile.js"
-        async defer type="text/javascript"></script>
-
-      <div class="linkedin-wrapper">
-        <div class="badge-base LI-profile-badge"
-          data-locale="en_US"
-          data-size="large"
-          data-theme="dark"
-          data-type="HORIZONTAL"
-          data-vanity="sunil-boopalan"
-          data-version="v1">
-          <a class="badge-base__link LI-simple-link"
-            href="https://www.linkedin.com/in/sunil-boopalan/"></a>
-        </div>
-      </div>
-
-      <style>
-        .linkedin-wrapper {
-          width: 100%;
-          display: flex;
-          justify-content: center;
-          margin: 20px 0;
-        }
-
-        .linkedin-wrapper iframe {
-          width: 100% !important;
-          max-width: 420px !important;
-        }
-      </style>
+         
           
           {% if site.form.hide_html_form == "false" %}
    <form class="contact-form" action="{{ site.form.action }}" method="post" enctype="multipart/form-data">
@@ -137,6 +140,7 @@
  </div>
 </div>
 <script src="{{ site.url || site.host }}{{ site.baseurl }}/lib/js/form.js"></script>
+
 
 
 
