@@ -32,116 +32,147 @@
   <div class="wrap-contact">
 
   <!-- LinkedIn Badge START -->
-          <!-- Custom LinkedIn Badge START -->
-<div class="linkedin-wrapper">
-  <a href="https://www.linkedin.com/in/sunil-boopalan" target="_blank" class="linkedin-badge">
-    <img src="{{ site.baseurl }}/lib/pics/png/profile-pic.png" alt="Sunil Boopalan">
+          <!-- ======= Custom LinkedIn Badge — Dark, Responsive, Retina, Shimmer Loader ======= -->
+<div class="linkedin-wrapper" aria-hidden="false" role="region" aria-label="LinkedIn profile badge">
+  <!-- Skeleton loader (shows briefly for smooth UX) -->
+  <div class="linkedin-skeleton" aria-hidden="true"></div>
+
+  <!-- Actual badge (hidden initially and fades in) -->
+  <a class="linkedin-badge" href="https://www.linkedin.com/in/sunil-boopalan" 
+     target="_blank" rel="noopener noreferrer" 
+     aria-label="Open Sunil Boopalan on LinkedIn" 
+     style="display:none;">
+     
+    <!-- profile image -->
+    <img class="linkedin-avatar" 
+         src="{{ site.baseurl }}/lib/pics/png/profile-pic.png" 
+         alt="Sunil Boopalan profile photo" />
+
     <div class="linkedin-info">
       <span class="linkedin-name">Sunil Boopalan</span>
-      <span class="linkedin-label"><img src="{{ site.baseurl }}/lib/pics/png/linkedin-icon.png" alt="LinkedIn" class="linkedin-icon"> LinkedIn</span>
+
+      <span class="linkedin-sub">
+        <svg class="linkedin-svg" viewBox="0 0 24 24" width="16" height="16">
+          <path fill="#ffffff" d="M20.447 20.452h-3.554v-5.569c0-1.328-.026-3.036-1.851-3.036-1.852 0-2.135 1.445-2.135 2.939v5.666H9.349V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.368-1.85 3.602 0 4.269 2.371 4.269 5.456v6.285zM5.337 7.433a2.07 2.07 0 110-4.141 2.07 2.07 0 010 4.141zM6.88 20.452H3.792V9h3.088v11.452z"/>
+        </svg>
+        <span class="linkedin-text">LinkedIn</span>
+      </span>
     </div>
   </a>
 </div>
 
 <style>
-/* Wrapper */
+/* ---------- Wrapper ---------- */
 .linkedin-wrapper {
-  display: flex;
-  justify-content: center;
-  margin: 20px 0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin:20px 0;
+  width:100%;
+  box-sizing:border-box;
 }
 
-/* Badge link */
+/* ---------- Badge ---------- */
 .linkedin-badge {
-  display: flex;
-  align-items: center;
-  background-color: #0A66C2; /* LinkedIn blue */
-  color: #ffffff;
-  padding: 10px 15px;
-  border-radius: 8px;
-  text-decoration: none;
-  max-width: 400px;
-  width: 90%;
-  box-sizing: border-box;
-  transition: transform 0.2s ease;
+  display:flex;
+  align-items:center;
+  gap:12px;
+  padding:10px 14px;
+  border-radius:10px;
+  background:#000;
+  color:#fff;
+  width: clamp(240px, 45%, 420px);
+  text-decoration:none;
+  box-shadow:0 6px 18px rgba(0,0,0,0.35);
+  transition:transform .18s ease, box-shadow .18s ease;
+  opacity:0;
 }
 
+/* Hover */
 .linkedin-badge:hover {
-  transform: scale(1.03);
+  transform:translateY(-4px) scale(1.02);
+  box-shadow:0 18px 40px rgba(0,0,0,0.45);
 }
 
-/* Profile image */
-.linkedin-badge img:first-child {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 12px;
-  flex-shrink: 0;
+/* ---------- Avatar ---------- */
+.linkedin-avatar {
+  width: clamp(40px, 8vw, 56px);
+  height: clamp(40px, 8vw, 56px);
+  border-radius:50%;
+  object-fit:cover;
+  flex-shrink:0;
 }
 
-/* Text block */
+/* ---------- Text ---------- */
 .linkedin-info {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: Arial, sans-serif;
+  display:flex;
+  flex-direction:column;
 }
 
 .linkedin-name {
-  font-weight: bold;
-  font-size: 16px;
+  font-weight:600;
+  font-size: clamp(0.95rem, 1.8vw, 1.1rem);
 }
 
-.linkedin-label {
-  font-size: 0.8rem;
-  display: flex;
-  align-items: center;
-  color: #e6e6e6;
-  margin-top: 2px;
+.linkedin-sub {
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-top:3px;
+  color:#cfcfcf;
+  font-size: clamp(0.72rem, 1.2vw, 0.86rem);
 }
 
-.linkedin-icon {
-  width: 14px;
-  height: 14px;
-  margin-right: 4px;
+/* ---------- Skeleton ---------- */
+.linkedin-skeleton {
+  width: clamp(240px, 45%, 420px);
+  height: clamp(64px, 8.5vw, 88px);
+  border-radius:10px;
+  background: linear-gradient(90deg,#0b0b0b 0%,#141414 30%,#0b0b0b 60%);
+  position:relative;
+  overflow:hidden;
 }
 
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-  .linkedin-badge img:first-child {
-    width: 40px;
-    height: 40px;
-  }
-
-  .linkedin-name {
-    font-size: 14px;
-  }
-
-  .linkedin-label {
-    font-size: 0.7rem;
-  }
-
-  .linkedin-icon {
-    width: 12px;
-    height: 12px;
-  }
+.linkedin-skeleton::after{
+  content:"";
+  position:absolute;
+  top:0;
+  left:-150%;
+  width:150%;
+  height:100%;
+  background: linear-gradient(90deg,transparent 0%,rgba(255,255,255,0.05) 50%,transparent 100%);
+  animation: shimmer .9s ease-in-out 1;
 }
+
+@keyframes shimmer {
+  to { left:150%; }
+}
+
 </style>
-<!-- Custom LinkedIn Badge END -->
+
+<script>
+(function () {
+  const wrapper = document.querySelector('.linkedin-wrapper');
+  const skeleton = wrapper.querySelector('.linkedin-skeleton');
+  const badge = wrapper.querySelector('.linkedin-badge');
+
+  function fadeIn(el, time = 220) {
+    el.style.display = '';
+    el.style.opacity = 0;
+    el.style.transition = `opacity ${time}ms ease`;
+    requestAnimationFrame(() => el.style.opacity = 1);
+  }
+
+  setTimeout(() => {
+    skeleton.style.display = 'none';
+    fadeIn(badge, 200);
+  }, 280); // short, seamless
+})();
+</script>
+<!-- ======= END Custom LinkedIn Badge ======= -->
           
  <!-- LinkedIn Badge -->
- <div class="linkedin-wrapper">
-  <div class="badge-base LI-profile-badge"
-       data-locale="en_US"
-       data-size="medium"
-       data-theme="dark"
-       data-type="HORIZONTAL"
-       data-vanity="sunil-boopalan"
-       data-version="v1">
-  </div>
-</div>
-
-<script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+ 
 
 
   <!-- LinkedIn Badge END -->
@@ -225,6 +256,7 @@
  </div>
 </div>
 <script src="{{ site.url || site.host }}{{ site.baseurl }}/lib/js/form.js"></script>
+
 
 
 
