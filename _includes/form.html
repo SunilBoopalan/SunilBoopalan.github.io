@@ -41,11 +41,21 @@
       data-vanity="sunil-boopalan"
       data-version="v1">
     </div>
-  
+          
+    <a href="https://www.linkedin.com/in/sunil-boopalan" target="_blank" class="linkedin-fallback">
+    <img src="{{ site.baseurl }}/lib/pics/png/linkedin-fallback.png" 
+         alt="View my LinkedIn" 
+         style="max-width:250px; width:100%; display:none; margin:0 auto;">
+  </a>
 
 </div>
          
   <script src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+
+          <script src="https://platform.linkedin.com/badges/js/profile.js" async defer onerror="
+  document.querySelector('.linkedin-fallback img').style.display='block';
+  document.querySelector('.badge-base').style.display='none';
+"></script>
 
 
   <!-- LinkedIn Badge END -->
@@ -129,6 +139,7 @@
  </div>
 </div>
 <script src="{{ site.url || site.host }}{{ site.baseurl }}/lib/js/form.js"></script>
+
 
 
 
